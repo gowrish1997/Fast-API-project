@@ -1,0 +1,16 @@
+[project]
+name = "fast-api-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]",
+    "uvicorn",
+    "pydantic",
+    "sqlalchemy>=2.0.50",
+    "alembic>=1.18.4",
+    "psycopg2-binary>=2.9.12",
+    "pwdlib[aragon2]>=0.3.0",
+    "pyjwt>=2.13.0",
+]
